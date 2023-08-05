@@ -1,31 +1,27 @@
-import { StyleSheet,Text,View,Button } from "react-native-web";
+import { StyleSheet, Text, View, Button } from 'react-native'
 import React from 'react'
-import { useState } from "react";
-import { counterEvent } from "react-native/Libraries/Performance/Systrace";
+import { useState } from 'react'
 
 const Counter = () => {
-
-    const [count,setCount] = useState(0);
+  
+    const [count, setCount] = useState(0);
 
     return (
-        <view style ={styles.container}>
+        <View style={styles.container}>
             <Text>{count}</Text>
-            <Button
-            title='Click Me'
-            onPress = {() => {setCount(count+1)}}
+            <Button 
+                title = 'Click Me'
+                onPress = {() => {setCount(count+1)}}
             />
-            
-
-        </view>
+        </View>
     )
 }
 
-
 export default Counter
+
 const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    justifyContent:'center',
-    alignContent:'center'
-  }
+    container:{
+        flex:1,
+        justifyContent:'center'
+    }
 })

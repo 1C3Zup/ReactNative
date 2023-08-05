@@ -5,22 +5,22 @@ const ALLOW_SIGNUP = true;
 
 console.log("Welcome to " + SITE_NAME);
 
-let language = ["Javascript", "Python", "Ruby", "Java", "PHP"];
-for (let i in language) {
-  let url = BASE_URL + "lang/" + language[i].toLowerCase();
-  console.log(`- ${language[i]} programing (${url})`);
+let languages = ["JavaScript", "Python", "Ruby", "Java", "PHP"];
+for (let i in languages) {
+    let url = BASE_URL + "lang/" + languages[i].toLowerCase();
+    console.log(`- ${languages[i]} programming (${url})`);
 }
 
 console.log("Footer");
 
 let footer = ["About", "Privacy"];
 for (let i in footer) {
-  let url = BASE_URL + " " + footer[i].toLowerCase();
-  console.log(`- ${footer[i]}) (${url})`);
+    let url = BASE_URL + ' ' + footer[i].toLowerCase();
+    console.log(`- ${footer[i]} (${url})`);
 }
 
 if (ALLOW_SIGNUP) {
-  console.log("[Sign up for new settle]");
+    console.log("[Sign up for new settle]");
 }
 
-console.log(`@ ${new Date().getFullYear()} ${SITE_NAME}`);
+console.log(`© ${new Date().getFullYear()} ${SITE_NAME}`);

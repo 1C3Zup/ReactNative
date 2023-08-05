@@ -1,12 +1,13 @@
 let a = 2;
 let b = 3;
-let templatestring = `The result of ${a} + ${b} is ${a + b}`;
+let templateString = `The result of ${a} + ${b} 
+is ${a + b}`;
 
-let multilinestring = 
-`    First line
-    Second line
-    And thrid line
+let multilineString = `
+    First line
+Second line
+And third line
 `;
 
-console.log(templatestring);
-console.log(multilinestring);
+console.log(templateString);
+console.log(multilineString);

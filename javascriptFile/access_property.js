@@ -1,11 +1,11 @@
 let user = {
-    id: 1,
-    name : "Nattapob"
+    id : 1,
+    name : "Apichai"
 };
 
 console.log("ID:", user.id);
 console.log("Name:", user.name);
 
-user.name = "Nattapob B";
+user.name = "Apichai M";
 
 console.log("Name:", user.name);

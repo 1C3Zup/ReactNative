@@ -1,4 +1,4 @@
 Student ID : 2013110446 
 Student Name : Nattapob Buaklubtaweenon
-DatetoStudy: 05-August-2023
-ClassTopic : TouchablePractice
+DatetoStudy: 19-August-2023
+ClassTopic : React Native Hook(useEffect)

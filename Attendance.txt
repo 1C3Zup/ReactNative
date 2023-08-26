@@ -1,4 +1,9 @@
 Student ID : 2013110446 
 Student Name : Nattapob Buaklubtaweenon
-DatetoStudy: 19-August-2023
-ClassTopic : React Native Hook(useEffect)
+DatetoStudy: 26-August-2023
+ClassTopic :
+1. PR Mobile Application Contest as a link: 
+2. using Android Emulator
+3. using Fetch call API in Component
+4. Guideline: Postman calls the API
+5. In-class exercise

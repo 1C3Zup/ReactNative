@@ -1,7 +1,9 @@
+import { View, Text} from 'react-native'
 import React from 'react'
-import FlatListAPI from './components/FlatListAPI'
-import New from './components/New'
-import ProductScreen from './components/ProductScreen'
+import { NavigationContainer } from '@react-navigation/native'
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import HomeScreen from './screens/HomeScreen'
+import DetailsScreen from './components/DeatilsScreen'
 
 const App = () => {
   return (

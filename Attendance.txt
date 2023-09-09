@@ -1,5 +1,6 @@
 Student ID : 2013110446 
 Student Name : Nattapob Buaklubtaweenon
-DatetoStudy: 02-September-2023
+DatetoStudy: 09-September-2023
 ClassTopic :
-React Navigator : Stack Navigator
+- React Navigator : Stack Navigator with passing parameters to routes
+- React Navigator : Drawer Navigator

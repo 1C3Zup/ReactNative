@@ -5,8 +5,9 @@ import {createDrawerNavigator} from '@react-navigation/drawer';
 import React from 'react'
 import FirstPage from './components/pages/FirstPage';
 import SecondPage from './components/pages/SecondPage';
+import ThirdPage from './components/pages/ThirdPage';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
+import CustomSideBarMenu from './pages/CustomSideBarMenu';
 function Feed(){
   return(
     <View style= {{flex:1, justifyContent:'center', alignItems: 'center'}}>
